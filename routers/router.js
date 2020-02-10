@@ -22,5 +22,6 @@ router.get('/getcatid',controler.getcatid)
 router.put('/delmovcat',controler.delmovcat)
 router.get('/getmovlist',controler.getmovlist)
 router.get('/getcatlist',controler.getcatlist)
+router.post('/addmovcat',controler.addmovcat)
 
 module.exports = router
