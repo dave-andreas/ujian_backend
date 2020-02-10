@@ -15,6 +15,6 @@ app.get('/',(req,res)=>{
     return res.status(200).send('welcome to ujian_backend api')
 })
 
-app.use('/ujian',router)
+app.use('/movie',router)
 
 app.listen(port,()=>console.log('ujian_backend aktif di '+port))

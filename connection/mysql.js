@@ -4,7 +4,7 @@ const mysqldb = mysql.createConnection({
     host:'localhost',
     user:'david',
     password:'!2#)9*RoY',
-    database:'ujian_backend',
+    database:'movieindoxxi',
     port:'3306'
 })
 
